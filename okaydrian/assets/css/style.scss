@@ -715,7 +715,10 @@ ol, ul {
 	z-index: 500;
 	position: fixed;
     right: 20px;
-    top: 50%;
+    top: 20px;
+    @media (min-width: 980px) {
+        top: 50%;
+    }
     transform: translateY(-50%);
     @include fontSize(22px);
     z-index: 10;
